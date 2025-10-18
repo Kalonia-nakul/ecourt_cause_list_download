@@ -129,7 +129,6 @@ def main():
     choice = {'criminal' : 'cri' , 'civil' : 'civ'}
     selected_choice = st.selectbox("Select Choice", list(choice.keys()))
     payload['cicri'] = choice[selected_choice]
-    print(payload)
 
 
     x = st.button("Download Cause")
@@ -139,3 +138,4 @@ def main():
 
 
 main()
+
